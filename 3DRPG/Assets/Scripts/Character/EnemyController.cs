@@ -82,6 +82,7 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
         //FIXME:场景切换后修改掉
         GameManager.Instance.AddObserver(this);
     }
+
     //切换场景时启用
     // void OnEnable()
     // {
@@ -92,6 +93,12 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     {
         if (!GameManager.IsInitialized) return;
         GameManager.Instance.RemoveObserver(this);
+
+        if (GetComponent<LootSpawner>() && m_bIsDead)
+            GetComponent<LootSpawner>().SpawnLoot();
+
+        if (QuestManager.IsInitialized && m_bIsDead)
+            QuestManager.Instance.UpdateQuestProgress(this.name, 1);
     }
 
     private void Update()

@@ -41,7 +41,10 @@ public class SceneController : Singleton<SceneController>, IEndGameObserver
 
     private IEnumerator Transition(string sceneName, TransitionDestination.DestinationTag destinationTag)
     {
+        //TODO:保存数据
         SaveManager.Instance.SavePlayerData();
+        InventoryManager.Instance.SaveData();
+        QuestManager.Instance.SaveQuestData();
 
         if (SceneManager.GetActiveScene().name != sceneName) // 跨场景传送
         {
@@ -55,7 +58,7 @@ public class SceneController : Singleton<SceneController>, IEndGameObserver
         }
         else
         {
-            m_Player = GameManager.Instance.playerStats.gameObject;
+            m_Player = GameManager.Instance.playerCharacterStats.gameObject;
             m_PlayerAgent = m_Player.GetComponent<NavMeshAgent>();
 
             m_PlayerAgent.enabled = false;
@@ -109,8 +112,9 @@ public class SceneController : Singleton<SceneController>, IEndGameObserver
         yield return m_Player = Instantiate(playerPrefab,
             GameManager.Instance.GetEntrance().position,
             GameManager.Instance.GetEntrance().rotation);
-
+        //TODO:保存数据
         SaveManager.Instance.SavePlayerData();
+        InventoryManager.Instance.SaveData();
 
         yield return StartCoroutine(fade.FadeIn(2f));
     }

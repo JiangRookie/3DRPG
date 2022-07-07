@@ -1,18 +1,776 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec63eeb4-3e7e-4350-96d2-1fdb65912172" name="变更" comment="" />
+    <list default="true" id="ec63eeb4-3e7e-4350-96d2-1fdb65912172" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3DRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3DRPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animators.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animators/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animators/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animators/Slime.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animators/Slime.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Cursor/05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Attack01.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Attack01.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Attack02.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Attack02.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Defend.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Defend.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Die.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Die.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/DieRecover.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/DieRecover.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Dizzy.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Dizzy.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/GetHit.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/GetHit.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Idle_Battle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/Idle_Battle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/RunForwardBattle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/RunForwardBattle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/WalkForwardBattle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Animations/WalkForwardBattle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Material.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Material/PBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Material/PBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Material/Polyart.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Material/Polyart.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Material/Skybox_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Material/Skybox_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Material/Stage.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Material/Stage.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/DogPBR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/DogPBR.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/DogPolyart.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/DogPolyart.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/Shield.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/Shield.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/ShieldPolyart.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/ShieldPolyart.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/Stage.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/Stage.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/Sword.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/Sword.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/SwordPolyart.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Mesh/SwordPolyart.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Prefab/DogPolyart.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Prefab/DogPolyart.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/MS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/MS.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/StandardAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/DogKnight/Texture/StandardAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/Scene/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/Scene/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/Scene/DemoSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/Scene/DemoSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Attack01_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Attack01_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Attack02_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Attack02_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Die_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Die_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Dizzy_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Dizzy_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/GetHit_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/GetHit_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/IdleBattle_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/IdleBattle_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/IdleNormal_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/IdleNormal_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Run_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Run_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/SenseSomethingRoutine_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/SenseSomethingRoutine_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/SenseSomethingStart_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/SenseSomethingStart_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Taunt_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Taunt_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Victory_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Victory_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/WalkBack_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/WalkBack_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/WalkLeft_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/WalkLeft_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/WalkRight_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/WalkRight_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Walk_Slime_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/Slime/Walk_Slime_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack01_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack01_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack02_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Attack02_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/DefendHit_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/DefendHit_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Defend_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Defend_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Die_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Die_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Dizzy_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Dizzy_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/GetHit_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/GetHit_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleBattle_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleBattle_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleNormal_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/IdleNormal_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Run_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Run_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/SenseSomethingRT_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/SenseSomethingRT_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/SenseSomethingStart_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/SenseSomethingStart_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Taunt_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Taunt_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Victory_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Victory_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/WalkBack_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/WalkBack_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/WalkLeft_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/WalkLeft_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/WalkRight_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/WalkRight_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Walk_TurtleShell_Anim.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Animations/TurtleShell/Walk_TurtleShell_Anim.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/PolyartDefault.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/Skybox_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/Skybox_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/SlimePBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/SlimePBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/Stage.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/Stage.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/TurtleShellPBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Materials/TurtleShellPBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/SlimeMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/SlimeMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/SlimeMeshPBR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/SlimeMeshPBR.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/StageMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/StageMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Meshes/TurtleShellMeshPBR.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Prefabs/Slime.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Prefabs/SlimePBR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Prefabs/SlimePBR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Prefabs/TurtleShell.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Prefabs/TurtleShell.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Prefabs/TurtleShellPBR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeMetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeMetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeNormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRSlimeNormal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellMetalicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellMetalicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellNormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PBRTurtleShellNormal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PolyartDefaultTex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/RPG Monster Duo PBR Polyart/Textures/PolyartDefaultTex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Font.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Font/MedievalSharp.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Font/MedievalSharp.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/CharacterDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/CharacterDemo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/Character_Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/Character_Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/Health.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/Health.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/HealthMana_Cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/HealthMana_Cover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/Mana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/Mana.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/Player_Frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Bar/Player_Frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Blue_Ribbon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Blue_Ribbon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/CharacterDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/CharacterDemo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Character_Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Character_Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Eq_Slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Eq_Slot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Minus_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Minus_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Nickname_Slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Nickname_Slot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Plus_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Plus_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Red_Ribbon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Stats_Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Stats_Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Violet_Ribbon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Character Panel/Violet_Ribbon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Accept_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Accept_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Armor_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Armor_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Boots_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Boots_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Close_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Close_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Coin_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Coin_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Comleted_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Comleted_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Crystal_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Crystal_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Helmet_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Helmet_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Minus_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Minus_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Plus_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Plus_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Shield_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Shield_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Sword_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Icons/Sword_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Close_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Close_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Coin_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Coin_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/InventoryDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/InventoryDemo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Inventory_Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Inventory_Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Inventory_Slot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Inventory_Slots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Inventory_Slots.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Money_Bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Money_Bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Title_Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Inventory/Title_Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Loading Bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Loading Bar/Background_Bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Loading Bar/Background_Bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Loading Bar/Decoration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Loading Bar/Decoration.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Loading Bar/LoadingDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Loading Bar/LoadingDemo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Loading Bar/Progress_Bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Loading Bar/Progress_Bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Hover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Pressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginDemo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginPassword_Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/LoginPassword_Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/Login_Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Login Panel/Login_Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Menu Panel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Menu Panel/Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Menu Panel/Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Menu Panel/ButtonShadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Menu Panel/MenuDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Menu Panel/MenuDemo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Menu Panel/Menu_Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Menu Panel/Menu_Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Comleted_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Comleted_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Crystal_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Crystal_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Progress_Slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Progress_Slot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/QuestDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/QuestDemo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Quest_Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Quest_Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Reward_Slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PNG/Quest Panel/Reward_Slot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Characer_Panel.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Characer_Panel.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Character_Bar.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Character_Bar.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Inventory_Box.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Inventory_Box.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Loading_Bar.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Loading_Bar.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Login_Bar.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Login_Bar.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Menu_Bar.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Menu_Bar.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Quest_Panel.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Quest_Panel.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Simple_Fantasy_GUI_ALL.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/PSD/Simple_Fantasy_GUI_ALL.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Scenes/DemoScene1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Scenes/DemoScene1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Scenes/DemoScene1Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Scenes/DemoScene1Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Scenes/DemoScene2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Scenes/DemoScene2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Scenes/DemoScene2Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Simple Fantasy GUI/Scenes/DemoScene2Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Branch_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Branch_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Bush_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Bush_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Bush_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Bush_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Bush_03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Bush_03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Flowers_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Flowers_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Flowers_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Flowers_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Grass_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Grass_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Grass_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Grass_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Ground_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Ground_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Ground_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Ground_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Ground_03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Ground_03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Mushroom_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Mushroom_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Mushroom_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Mushroom_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_04.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_04.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_05.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Rock_05.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Stump_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Stump_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_02.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_02.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_03.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_03.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_04.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_04.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_05.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Models/Tree_05.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Branch_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Branch_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Bush_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Bush_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Bush_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Bush_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Bush_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Bush_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Flowers_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Flowers_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Flowers_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Flowers_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Grass_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Grass_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Grass_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Grass_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Ground_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Ground_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Ground_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Ground_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Ground_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Ground_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Mushroom_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Mushroom_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Mushroom_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Mushroom_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_05.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Rock_05.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Stump_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Stump_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_05.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Prefabs/Tree_05.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/PostProcessing Profile_SimpleNaturePack.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/PostProcessing Profile_SimpleNaturePack.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/PostProcessing_SimpleNaturePack.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/PostProcessing_SimpleNaturePack.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/Scene Settings Profile_SimpleNaturePack.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/Scene Settings Profile_SimpleNaturePack.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/SimpleNaturePack_ForwardRender.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/SimpleNaturePack_ForwardRender.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/SimpleNaturePack_HDRP.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/SimpleNaturePack_HDRP.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/SimpleNaturePacl_URP.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/PostProcessing/SimpleNaturePacl_URP.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/SimpleNaturePack_DemoSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/SimpleNaturePack_DemoSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4_v1.22.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/SimpleNaturePack_LWRP_2018.4_v1.22.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/SimpleNaturePack_URP_2019.3_v1.22.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/Version.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/Version.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Functions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Night.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Settings/Demo.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Settings/Demo.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/Boxophobic.Utils.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/Boxophobic.Utils.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/Constants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/Constants/Constants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/Constants/Constants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/SettingsUtils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/SettingsUtils/LoadSettingsData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/SettingsUtils/LoadSettingsData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/SettingsUtils/SaveSettingsData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/SettingsUtils/SaveSettingsData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledGUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledGUI/DrawInspectorBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledGUI/DrawInspectorBanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledGUI/DrawInspectorCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledGUI/DrawInspectorCategory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledGUI/DrawWindowBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledGUI/DrawWindowBanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledGUI/DrawWindowCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledGUI/DrawWindowCategory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledBannerDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledBannerDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledButtonDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledButtonDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledEnumDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledEnumDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledIndentDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledIndentDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledLayersDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledLayersDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledMaskDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledMaskDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledMessageDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledMessageDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledTextDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledTextDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledEmissiveIntensityDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledEmissiveIntensityDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledLayersDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledLayersDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledTextDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledTextDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledVectorDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMaterial/StyledVectorDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMono.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/Version.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Editor/Version.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/SettingsUtils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/SettingsUtils/SettingsData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/SettingsUtils/SettingsData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledGizmos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledBanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledBanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledCategory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledEnum.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledIndent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledIndent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledInteractive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledInteractive.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledLayers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledLayers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledMask.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledMask.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledMessage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledRangeOptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledRangeOptions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledSpace.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledSpace.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledTexturePreview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledInspector/StyledTexturePreview.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledMono.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledMono/StyledScriptableObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/Skybox/Utils/Scripts/StyledMono/StyledScriptableObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/UI Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/UI Assets/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Packs/UI Assets/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Data/Attack Data/Player BaseAttackData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Data/Attack Data/Player BaseAttackData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Character/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effect.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effect/PostProcessing.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effect/PostProcessing.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item/Ground.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item/Ground.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item/Patrol.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item/Patrol.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HealthBarUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HealthBarUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Scene Fader.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Scene Fader.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character Stats/Monobehaviour/CharacterStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character Stats/Monobehaviour/CharacterStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character Stats/ScriptableObject/AttackData_SO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character Stats/ScriptableObject/AttackData_SO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/MouseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/MouseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/SaveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/SaveManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/SceneController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerHealthUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PlayerHealthUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Assets Packs/Skybox/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/DialogueEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/UI/DialogueUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Item/MonoBehaviour/ItemPickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Item/MonoBehaviour/LootSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Logic/Monobehaviour/InventoryManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UI/ActionButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UI/DragPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UI/ItemTooltip.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quest/Logic/QuestManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quest/UI/QuestNameButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quest/UI/QuestRequirement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quest/UI/QuestUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quest/UI/ShowTooltip.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tool/StopAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/HealthBarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,8 +787,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.toDoOptions&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -75,7 +834,17 @@
       <workItem from="1656771209423" duration="2897000" />
       <workItem from="1656774228044" duration="7721000" />
       <workItem from="1656818302632" duration="23262000" />
-      <workItem from="1656901851829" duration="3984000" />
+      <workItem from="1656901851829" duration="9352000" />
+      <workItem from="1656926635099" duration="16253000" />
+      <workItem from="1656992253242" duration="4715000" />
+      <workItem from="1657000199655" duration="60000" />
+      <workItem from="1657000277903" duration="17437000" />
+      <workItem from="1657039230060" duration="58000" />
+      <workItem from="1657080142463" duration="3516000" />
+      <workItem from="1657083758845" duration="10545000" />
+      <workItem from="1657119474070" duration="2092000" />
+      <workItem from="1657159872576" duration="18710000" />
+      <workItem from="1657201613100" duration="624000" />
     </task>
     <servers />
   </component>
@@ -85,6 +854,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

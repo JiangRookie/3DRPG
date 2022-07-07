@@ -17,22 +17,22 @@ public class PlayerHealthUI : MonoBehaviour
 
     private void Update()
     {
-        m_LevelText.text = "LEVEL  " + GameManager.Instance.playerStats.characterData.currentLevel.ToString("00");
+        m_LevelText.text = "LEVEL  " + GameManager.Instance.playerCharacterStats.characterData.currentLevel.ToString("00");
         UpdateHealth();
         UpdateExp();
     }
 
     private void UpdateHealth()
     {
-        var sliderPercent = (float)GameManager.Instance.playerStats.CurrentHealth /
-                            GameManager.Instance.playerStats.MaxHealth;
+        var sliderPercent = (float)GameManager.Instance.playerCharacterStats.CurrentHealth /
+                            GameManager.Instance.playerCharacterStats.MaxHealth;
         m_HealthSlider.fillAmount = sliderPercent;
     }
 
     private void UpdateExp()
     {
-        var sliderPercent = (float)GameManager.Instance.playerStats.characterData.currentExp /
-                            GameManager.Instance.playerStats.characterData.baseExp;
+        var sliderPercent = (float)GameManager.Instance.playerCharacterStats.characterData.currentExp /
+                            GameManager.Instance.playerCharacterStats.characterData.baseExp;
         m_ExpSlider.fillAmount = sliderPercent;
     }
 }

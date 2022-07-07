@@ -1,12 +1,14 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MouseManager : Singleton<MouseManager>
 {
     public Texture2D point, doorway, attack, target, arrow;
-    private RaycastHit m_HitInfo;
     public event Action<Vector3> OnMouseClicked;
     public event Action<GameObject> OnEnemyClicked;
+    private RaycastHit m_HitInfo;
+    private readonly Vector2 m_Hotspot = new Vector2(16, 16);
 
     protected override void Awake()
     {
@@ -14,46 +16,48 @@ public class MouseManager : Singleton<MouseManager>
         DontDestroyOnLoad(this);
     }
 
-    void Update()
+    private void Update()
     {
+        SetCursorTexture();
+        if (InteractWithUI()) return;
         MouseControl();
     }
 
-    private void FixedUpdate()
+    private void SetCursorTexture()
     {
-        SetCursorTexture();
-    }
+        var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-    void SetCursorTexture()
-    {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (InteractWithUI())
+        {
+            Cursor.SetCursor(point, Vector2.zero, CursorMode.Auto);
+            return;
+        }
 
         if (Physics.Raycast(ray, out m_HitInfo))
         {
-            //切换鼠标贴图
             switch (m_HitInfo.collider.gameObject.tag)
             {
                 case "Ground":
-                    Cursor.SetCursor(target, new Vector2(16, 16), CursorMode.Auto);
+                    Cursor.SetCursor(target, m_Hotspot, CursorMode.Auto);
                     break;
                 case "Enemy":
-                    Cursor.SetCursor(attack, new Vector2(16, 16), CursorMode.Auto);
+                    Cursor.SetCursor(attack, m_Hotspot, CursorMode.Auto);
                     break;
                 case "Portal":
-                    Cursor.SetCursor(doorway, new Vector2(16, 16), CursorMode.Auto);
+                    Cursor.SetCursor(doorway, m_Hotspot, CursorMode.Auto);
                     break;
                 case "Item":
-                    Cursor.SetCursor(point, new Vector2(16, 16), CursorMode.Auto);
+                    Cursor.SetCursor(point, m_Hotspot, CursorMode.Auto);
                     break;
 
                 default:
-                    Cursor.SetCursor(arrow, new Vector2(16, 16), CursorMode.Auto);
+                    Cursor.SetCursor(arrow, m_Hotspot, CursorMode.Auto);
                     break;
             }
         }
     }
 
-    void MouseControl()
+    private void MouseControl()
     {
         if (Input.GetMouseButtonDown(0) && m_HitInfo.collider != null)
         {
@@ -68,5 +72,15 @@ public class MouseManager : Singleton<MouseManager>
             if (m_HitInfo.collider.gameObject.CompareTag("Item"))
                 OnMouseClicked?.Invoke(m_HitInfo.point);
         }
+    }
+
+    private bool InteractWithUI()
+    {
+        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+        {
+            return true;
+        }
+
+        return false;
     }
 }

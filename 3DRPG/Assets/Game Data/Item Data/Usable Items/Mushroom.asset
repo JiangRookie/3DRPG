@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc206fbb64df48eeb1a972b45b01d518, type: 3}
+  m_Name: Mushroom
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: "\u5927\u8611\u83C7"
+  itemIcon: {fileID: 21300000, guid: 73b72eec079baf54a82a2aafea625048, type: 3}
+  itemAmount: 1
+  description: "\u770B\u8D77\u6765\u597D\u5403\u7684\u5927\u8611\u83C7\uFF0C\u53EF\u56DE\u590D10\u70B9\u751F\u547D\u503C\u3002"
+  isStackable: 1
+  usableItemData: {fileID: 11400000, guid: 66e78afe17884894798c224614032f86, type: 2}
+  weaponPrefab: {fileID: 0}
+  weaponData: {fileID: 0}

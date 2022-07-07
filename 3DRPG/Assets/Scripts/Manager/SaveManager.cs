@@ -24,12 +24,12 @@ public class SaveManager : Singleton<SaveManager>
 
     public void SavePlayerData()
     {
-        Save(GameManager.Instance.playerStats.characterData, GameManager.Instance.playerStats.characterData.name);
+        Save(GameManager.Instance.playerCharacterStats.characterData, GameManager.Instance.playerCharacterStats.characterData.name);
     }
 
     public void LoadPlayerData()
     {
-        Load(GameManager.Instance.playerStats.characterData, GameManager.Instance.playerStats.characterData.name);
+        Load(GameManager.Instance.playerCharacterStats.characterData, GameManager.Instance.playerCharacterStats.characterData.name);
     }
 
     public void Save(Object data, string key)

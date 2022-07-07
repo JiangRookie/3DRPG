@@ -5,21 +5,25 @@ using Random = UnityEngine.Random;
 public class CharacterStats : MonoBehaviour
 {
     public event Action<int, int> UpdateHealthBarOnAttack;
+    [HideInInspector] public bool isCritical;
+
     public CharacterData_SO templateData;
     public CharacterData_SO characterData;
     public AttackData_SO attackData;
-    private AttackData_SO m_BaseAttackData;
-
-    [HideInInspector] public bool isCritical;
-
+    public AttackData_SO baseAttackData;
+    
+    private RuntimeAnimatorController m_BaseAnimator;
     private static readonly int Hit = Animator.StringToHash("Hit");
+
+    [Header("武器")] public Transform weaponSlot;
 
     private void Awake()
     {
         if (templateData != null)
             characterData = Instantiate(templateData);
 
-        m_BaseAttackData = Instantiate(attackData);
+        baseAttackData = Instantiate(attackData);
+        m_BaseAnimator = GetComponent<Animator>().runtimeAnimatorController;
     }
 
     #region Read from Data_SO
@@ -77,7 +81,7 @@ public class CharacterStats : MonoBehaviour
         UpdateHealthBarOnAttack?.Invoke(CurrentHealth, MaxHealth);
 
         if (CurrentHealth <= 0)
-            GameManager.Instance.playerStats.characterData.UpdateExp(characterData.killPoint);
+            GameManager.Instance.playerCharacterStats.characterData.UpdateExp(characterData.killPoint);
     }
 
     private int CurrentDamage()
@@ -90,6 +94,55 @@ public class CharacterStats : MonoBehaviour
         }
 
         return (int)coreDamage;
+    }
+
+    #endregion
+
+    #region Equip Weapon
+
+    public void ChangeWeapon(ItemData_SO weapon)
+    {
+        UnEquipmentWeapon();
+        EquipWeapon(weapon);
+    }
+
+    public void EquipWeapon(ItemData_SO weapon)
+    {
+        if (weapon.weaponPrefab == null) return;
+        Instantiate(weapon.weaponPrefab, weaponSlot);
+
+        // TODO:更新属性
+        // TODO:切换动画
+        attackData.ApplyWeaponData(weapon.weaponData);
+        // InventoryManager.Instance.UpdateStatsText(MaxHealth, attackData.minDamage, attackData.maxDamage);
+        GetComponent<Animator>().runtimeAnimatorController = weapon.weaponAnimator;
+    }
+
+    public void UnEquipmentWeapon()
+    {
+        if (weaponSlot.transform.childCount != 0)
+        {
+            for (int i = 0; i < weaponSlot.transform.childCount; i++)
+            {
+                Destroy(weaponSlot.transform.GetChild(i).gameObject);
+            }
+        }
+
+        attackData.RestoreWeaponData(baseAttackData);
+        // TODO:切换动画
+        GetComponent<Animator>().runtimeAnimatorController = m_BaseAnimator;
+    }
+
+    #endregion
+
+    #region Apply Data Change
+
+    public void ApplyHealth(int amount)
+    {
+        if (CurrentHealth + amount <= MaxHealth)
+            CurrentHealth += amount;
+        else
+            CurrentHealth = MaxHealth;
     }
 
     #endregion

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
-    public CharacterStats playerStats;
+    public CharacterStats playerCharacterStats;
 
     private CinemachineFreeLook m_FollowCamera;
 
@@ -16,16 +16,16 @@ public class GameManager : Singleton<GameManager>
         DontDestroyOnLoad(this);
     }
 
-    public void RegisterPlayer(CharacterStats playerCharacterStats)
+    public void RegisterPlayer(CharacterStats thePlayerCharacterStats)
     {
-        playerStats = playerCharacterStats;
+        playerCharacterStats = thePlayerCharacterStats;
 
         m_FollowCamera = FindObjectOfType<CinemachineFreeLook>();
 
         if (m_FollowCamera != null)
         {
-            m_FollowCamera.Follow = playerStats.transform.GetChild(2);
-            m_FollowCamera.LookAt = playerStats.transform.GetChild(2);
+            m_FollowCamera.Follow = playerCharacterStats.transform.GetChild(2);
+            m_FollowCamera.LookAt = playerCharacterStats.transform.GetChild(2);
         }
     }
 
