@@ -1,2 +1,2 @@
-m_EditorVersion: 2020.3.34f1c1
-m_EditorVersionWithRevision: 2020.3.34f1c1 (abac39235835)
+m_EditorVersion: 2023.2.0f1c1
+m_EditorVersionWithRevision: 2023.2.0f1c1 (b085bd905330)
