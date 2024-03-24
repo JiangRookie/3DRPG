@@ -20,12 +20,14 @@ MonoBehaviour:
     NameToFullName: []
     BindInfos: []
     ScriptsFolder: Assets/Scripts/Game
-    ClassName: Player
+    ClassName: MouseManager
     Namespace: Jiang.Games
     MainCode: "using UnityEngine;\r\nusing QFramework;\r\n\r\nnamespace Jiang.Games\r\n{\r\n\tpublic
-      partial class Player : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
+      partial class MouseManager : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
       Code Here\r\n\t\t}\r\n\t}\r\n}\r\n"
-    DesignerCode: "// Generate Id:713644bd-cc40-4a15-a7fb-4f67ef037126\r\nusing UnityEngine;\r\n\r\nnamespace
-      Jiang.Games\r\n{\r\n\tpublic partial class Player\r\n\t{\r\n\r\n\t\tpublic
-      UnityEngine.Animator Animator;\r\n\r\n\t\tpublic UnityEngine.AI.NavMeshAgent
-      NavMeshAgent;\r\n\r\n\t\tpublic CharacterStats CharacterStats;\r\n\r\n\t}\r\n}\r\n"
+    DesignerCode: "// Generate Id:9b797bfb-84f3-4768-9d9b-3b23e3f79700\r\nusing UnityEngine;\r\n\r\nnamespace
+      Jiang.Games\r\n{\r\n\tpublic partial class MouseManager : QFramework.IController\r\n\t{\r\n\r\n\t\tpublic
+      UnityEngine.Texture2D ArrowSprite;\r\n\r\n\t\tpublic UnityEngine.Texture2D
+      TargetSprite;\r\n\r\n\t\tpublic UnityEngine.Texture2D AttackSprite;\r\n\r\n\t\tpublic
+      UnityEngine.Texture2D DoorwaySprite;\r\n\r\n\t\tpublic UnityEngine.Texture2D
+      PointSprite;\r\n\r\n\t\tQFramework.IArchitecture QFramework.IBelongToArchitecture.GetArchitecture()=>Jiang.Games.Global.Interface;\r\n\t}\r\n}\r\n"

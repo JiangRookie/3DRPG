@@ -25,8 +25,12 @@ namespace Jiang.Games
 
         private void OnEnable()
         {
-            MouseManager.Instance.OnMouseClicked += MoveToTargetEvent;
-            MouseManager.Instance.OnEnemyClicked += MoveToAttackTargetEvent;
+            MouseManager.OnMouseClickedEvent
+               .Register(MoveToTargetEvent)
+               .UnRegisterWhenGameObjectDestroyed(gameObject);
+            MouseManager.OnEnemyClickedEvent
+               .Register(MoveToAttackTargetEvent)
+               .UnRegisterWhenGameObjectDestroyed(gameObject);
             GameManager.Instance.RegisterPlayer(CharacterStats);
         }
 
@@ -34,13 +38,6 @@ namespace Jiang.Games
         {
             _SaveSystem = this.GetSystem<SaveSystem>();
             _SaveSystem.LoadPlayerData();
-        }
-
-        private void OnDisable()
-        {
-            if (!MouseManager.IsInitialized) return;
-            MouseManager.Instance.OnMouseClicked -= MoveToTargetEvent;
-            MouseManager.Instance.OnEnemyClicked -= MoveToAttackTargetEvent;
         }
 
         private void Update()
