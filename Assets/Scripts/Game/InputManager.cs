@@ -1,11 +1,16 @@
-using UnityEngine;
 using QFramework;
+using UnityEngine;
 
 namespace Jiang.Games
 {
     public partial class InputManager : ViewController
     {
         private SaveSystem _SaveSystem;
+
+        private void Awake()
+        {
+            DontDestroyOnLoad(this);
+        }
 
         private void Start()
         {
