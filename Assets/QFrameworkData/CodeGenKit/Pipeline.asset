@@ -20,10 +20,12 @@ MonoBehaviour:
     NameToFullName: []
     BindInfos: []
     ScriptsFolder: Assets/Scripts/Game
-    ClassName: InputManager
+    ClassName: Player
     Namespace: Jiang.Games
     MainCode: "using UnityEngine;\r\nusing QFramework;\r\n\r\nnamespace Jiang.Games\r\n{\r\n\tpublic
-      partial class InputManager : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
+      partial class Player : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
       Code Here\r\n\t\t}\r\n\t}\r\n}\r\n"
-    DesignerCode: "// Generate Id:08545f7b-d480-474d-bed1-dbc76009a729\r\nusing UnityEngine;\r\n\r\nnamespace
-      Jiang.Games\r\n{\r\n\tpublic partial class InputManager\r\n\t{\r\n\r\n\t}\r\n}\r\n"
+    DesignerCode: "// Generate Id:713644bd-cc40-4a15-a7fb-4f67ef037126\r\nusing UnityEngine;\r\n\r\nnamespace
+      Jiang.Games\r\n{\r\n\tpublic partial class Player\r\n\t{\r\n\r\n\t\tpublic
+      UnityEngine.Animator Animator;\r\n\r\n\t\tpublic UnityEngine.AI.NavMeshAgent
+      NavMeshAgent;\r\n\r\n\t\tpublic CharacterStats CharacterStats;\r\n\r\n\t}\r\n}\r\n"

@@ -3,14 +3,17 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Data", menuName = "Character Stats/Data")]
 public class CharacterData_SO : ScriptableObject
 {
-    [Header("角色状态")] public int maxHealth;
+    [Header("角色状态")]
+    public int maxHealth;
     public int currentHealth;
     public int baseDefence;
     public int currentDefence;
 
-    [Header("杀敌经验值")] public int killPoint;
+    [Header("杀敌经验值")]
+    public int killPoint;
 
-    [Header("等级信息")] public int currentLevel;
+    [Header("等级信息")]
+    public int currentLevel;
     public int maxLevel;
     public int baseExp;
     public int currentExp;
