@@ -3,34 +3,37 @@ using UnityEngine.UI;
 
 public class QuestUI : Singleton<QuestUI>
 {
-    [Header("Elements")] public GameObject questPanel;
+    [Header("Elements")]
+    public GameObject questPanel;
     public ItemTooltip tooltip;
     private bool m_bIsOpen;
 
-    [Header("Quest Name")] public RectTransform questListTransform;
+    [Header("Quest Name")]
+    public RectTransform questListTransform;
     public QuestNameButton questNameButton;
 
-    [Header("Text Content")] public Text questContentText;
+    [Header("Text Content")]
+    public Text questContentText;
 
-    [Header("Requirement")] public RectTransform requireTransform;
+    [Header("Requirement")]
+    public RectTransform requireTransform;
     public QuestRequirement requirement;
 
-    [Header("Reward Panel")] public RectTransform rewardTransform;
+    [Header("Reward Panel")]
+    public RectTransform rewardTransform;
     public ItemUI rewardUI;
 
-    private void Update()
+    public void SwitchQuestUI()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            m_bIsOpen = !m_bIsOpen;
-            questPanel.SetActive(m_bIsOpen);
-            questContentText.text = string.Empty;
-            // 显示内容面板
-            SetupQuestList();
+        m_bIsOpen = !m_bIsOpen;
+        questPanel.SetActive(m_bIsOpen);
+        questContentText.text = string.Empty;
 
-            if (!m_bIsOpen)
-                tooltip.gameObject.SetActive(false);
-        }
+        // 显示内容面板
+        SetupQuestList();
+
+        if (!m_bIsOpen)
+            tooltip.gameObject.SetActive(false);
     }
 
     public void SetupQuestList()
@@ -54,6 +57,7 @@ public class QuestUI : Singleton<QuestUI>
         {
             var newTask = Instantiate(questNameButton, questListTransform);
             newTask.SetupNameButton(task.questData);
+
             // newTask.questContentText = questContentText;
         }
     }

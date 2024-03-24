@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class InventoryManager : Singleton<InventoryManager>
 {
     private SaveSystem _SaveSystem;
+
     public class DragData
     {
         public SlotHolder originalHolder;
@@ -12,27 +13,32 @@ public class InventoryManager : Singleton<InventoryManager>
     }
 
     // 最后添加模板用于保存数据
-    [Header("Inventory Data")] public InventoryData_SO inventoryTemplate;
+    [Header("Inventory Data")]
+    public InventoryData_SO inventoryTemplate;
     public InventoryData_SO inventoryData;
     public InventoryData_SO actionTemplate;
     public InventoryData_SO actionData;
     public InventoryData_SO equipmentTemplate;
     public InventoryData_SO equipmentData;
 
-    [Header("Container")] public ContainerUI inventoryUI;
+    [Header("Container")]
+    public ContainerUI inventoryUI;
     public ContainerUI actionUI;
     public ContainerUI equipmentUI;
 
-    [Header("Drag Canvas")] public Canvas dragCanvas;
+    [Header("Drag Canvas")]
+    public Canvas dragCanvas;
 
-    [Header("UI Panel")] public GameObject bagPanel;
+    [Header("UI Panel")]
+    public GameObject bagPanel;
     public GameObject characterStatsPanel;
 
-    [Header("Stats Text")] public Text healthText;
+    [Header("Stats Text")]
+    public Text healthText;
     public Text attackText;
 
-    [Header("Tooltip")] public ItemTooltip tooltip;
-
+    [Header("Tooltip")]
+    public ItemTooltip tooltip;
     public DragData currentDrag;
 
     private bool m_IsOpen = false;
@@ -59,17 +65,18 @@ public class InventoryManager : Singleton<InventoryManager>
     private void Update()
     {
         //BUG:后续单独设置两个面板的开启与关闭 同时需要设置Close按钮的Click事件
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            m_IsOpen = !m_IsOpen;
-            bagPanel.SetActive(m_IsOpen);
-            characterStatsPanel.SetActive(m_IsOpen);
-        }
 
         // TODO:后续在GameManager封装一个获取数值的方法
         UpdateStatsText(GameManager.Instance.playerCharacterStats.MaxHealth,
             GameManager.Instance.playerCharacterStats.attackData.minDamage,
             GameManager.Instance.playerCharacterStats.attackData.maxDamage);
+    }
+
+    public void SwitchBag()
+    {
+        m_IsOpen = !m_IsOpen;
+        bagPanel.SetActive(m_IsOpen);
+        characterStatsPanel.SetActive(m_IsOpen);
     }
 
     public void SaveData()

@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// 传送点
@@ -12,7 +11,8 @@ public class TransitionPoint : MonoBehaviour
         DifferentScene
     }
 
-    [Header("传送门信息")] public string sceneName;
+    [Header("传送门信息")]
+    public string sceneName;
     public TransitionType transitionType;
     public TransitionDestination.DestinationTag transitionDestinationTag;
 
