@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 27742593}
   - component: {fileID: 27742592}
   - component: {fileID: 27742591}
+  - component: {fileID: 27742594}
   m_Layer: 5
   m_Name: Btn_NewGame
   m_TagString: Untagged
@@ -240,6 +241,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27742589}
   m_CullTransparentMesh: 1
+--- !u!114 &27742594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27742589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: Btn_NewGame
+  CustomComment: 
+  mComponentName: UnityEngine.UI.Button
 --- !u!1001 &179968628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -894,9 +911,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1597590103}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72e72c459fc0db547871e51ca3c57b28, type: 3}
+  m_Script: {fileID: 11500000, guid: c666144624dd98b4381ea605f48d919b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Namespace: Jiang.Games
+  ScriptName: MainMenuPanel
+  ScriptsFolder: Assets/Scripts/Game
+  GeneratePrefab: 0
+  PrefabFolder: Assets/Art/Prefab
+  ArchitectureFullTypeName: 
+  Btn_NewGame: {fileID: 27742591}
+  Btn_Continue: {fileID: 1728612672}
+  Btn_Quit: {fileID: 1949714858}
 --- !u!1 &1706975666
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,6 +1014,7 @@ GameObject:
   - component: {fileID: 1728612674}
   - component: {fileID: 1728612673}
   - component: {fileID: 1728612672}
+  - component: {fileID: 1728612675}
   m_Layer: 5
   m_Name: Btn_Continue
   m_TagString: Untagged
@@ -1097,6 +1124,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728612670}
   m_CullTransparentMesh: 1
+--- !u!114 &1728612675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728612670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: Btn_NewGame
+  CustomComment: 
+  mComponentName: UnityEngine.UI.Button
 --- !u!1 &1922304758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,6 +1269,7 @@ GameObject:
   - component: {fileID: 1949714860}
   - component: {fileID: 1949714859}
   - component: {fileID: 1949714858}
+  - component: {fileID: 1949714861}
   m_Layer: 5
   m_Name: Btn_Quit
   m_TagString: Untagged
@@ -1335,6 +1379,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949714856}
   m_CullTransparentMesh: 1
+--- !u!114 &1949714861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949714856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d51f3a7c41ab0346b49ae50d456bece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkType: 0
+  CustomComponentName: Btn_NewGame
+  CustomComment: 
+  mComponentName: UnityEngine.UI.Button
 --- !u!1 &1964222799
 GameObject:
   m_ObjectHideFlags: 0
