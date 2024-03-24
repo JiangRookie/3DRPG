@@ -1,20 +1,16 @@
 using System;
+using QFramework;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class MouseManager : Singleton<MouseManager>
+public class MouseManager : PersistentMonoSingleton<MouseManager>
 {
+    public bool IsInitialized => enabled;
     public Texture2D point, doorway, attack, target, arrow;
     public event Action<Vector3> OnMouseClicked;
     public event Action<GameObject> OnEnemyClicked;
     private RaycastHit m_HitInfo;
     private readonly Vector2 m_Hotspot = new Vector2(16, 16);
-
-    protected override void Awake()
-    {
-        base.Awake();
-        DontDestroyOnLoad(this);
-    }
 
     private void Update()
     {
