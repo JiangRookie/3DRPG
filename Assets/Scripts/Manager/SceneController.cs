@@ -1,10 +1,13 @@
 using System.Collections;
+using Jiang.Games;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 public class SceneController : Singleton<SceneController>, IEndGameObserver
 {
+    private SaveSystem _SaveSystem;
+
     public GameObject playerPrefab;
     public SceneFader sceneFaderPrefab;
     private bool m_bFadeFinished;
@@ -20,6 +23,7 @@ public class SceneController : Singleton<SceneController>, IEndGameObserver
 
     private void Start()
     {
+        _SaveSystem = Global.Interface.GetSystem<SaveSystem>();
         GameManager.Instance.AddObserver(this);
         m_bFadeFinished = true;
     }
@@ -42,7 +46,7 @@ public class SceneController : Singleton<SceneController>, IEndGameObserver
     private IEnumerator Transition(string sceneName, TransitionDestination.DestinationTag destinationTag)
     {
         //TODO:保存数据
-        SaveManager.Instance.SavePlayerData();
+        _SaveSystem.SavePlayerData();
         InventoryManager.Instance.SaveData();
         QuestManager.Instance.SaveQuestData();
 
@@ -54,7 +58,7 @@ public class SceneController : Singleton<SceneController>, IEndGameObserver
                 GetDestination(destinationTag).transform.position,
                 GetDestination(destinationTag).transform.rotation);
 
-            SaveManager.Instance.LoadPlayerData();
+            _SaveSystem.LoadPlayerData();
         }
         else
         {
@@ -92,7 +96,7 @@ public class SceneController : Singleton<SceneController>, IEndGameObserver
 
     public void TransitionToLoadGame()
     {
-        StartCoroutine(LoadScene(SaveManager.Instance.SceneName));
+        StartCoroutine(LoadScene(_SaveSystem.SceneName));
     }
 
     public void TransitionToFirstLevel()
@@ -113,7 +117,7 @@ public class SceneController : Singleton<SceneController>, IEndGameObserver
             GameManager.Instance.GetEntrance().position,
             GameManager.Instance.GetEntrance().rotation);
         //TODO:保存数据
-        SaveManager.Instance.SavePlayerData();
+        _SaveSystem.SavePlayerData();
         InventoryManager.Instance.SaveData();
 
         yield return StartCoroutine(fade.FadeIn(2f));

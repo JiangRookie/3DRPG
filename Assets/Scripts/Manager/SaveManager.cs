@@ -1,11 +1,9 @@
+using Jiang.Games;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SaveManager : Singleton<SaveManager>
 {
-    private readonly string m_SceneName = "level";
-
-    public string SceneName => PlayerPrefs.GetString(m_SceneName);
+    private SaveSystem _SaveSystem;
 
     protected override void Awake()
     {
@@ -13,38 +11,26 @@ public class SaveManager : Singleton<SaveManager>
         DontDestroyOnLoad(this);
     }
 
+    private void Start()
+    {
+        _SaveSystem = Global.Interface.GetSystem<SaveSystem>();
+    }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) SceneController.Instance.TransitionToMainScene();
-
-        if (Input.GetKeyDown(KeyCode.S)) SavePlayerData();
-
-        if (Input.GetKeyDown(KeyCode.L)) LoadPlayerData();
-    }
-
-    public void SavePlayerData()
-    {
-        Save(GameManager.Instance.playerCharacterStats.characterData, GameManager.Instance.playerCharacterStats.characterData.name);
-    }
-
-    public void LoadPlayerData()
-    {
-        Load(GameManager.Instance.playerCharacterStats.characterData, GameManager.Instance.playerCharacterStats.characterData.name);
-    }
-
-    public void Save(Object data, string key)
-    {
-        var jsonData = JsonUtility.ToJson(data, true);
-        PlayerPrefs.SetString(key, jsonData);
-        PlayerPrefs.SetString(m_SceneName, SceneManager.GetActiveScene().name);
-        PlayerPrefs.Save();
-    }
-
-    public void Load(Object data, string key)
-    {
-        if (PlayerPrefs.HasKey(key))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            JsonUtility.FromJsonOverwrite(PlayerPrefs.GetString(key), data);
+            SceneController.Instance.TransitionToMainScene();
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            _SaveSystem.SavePlayerData();
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            _SaveSystem.LoadPlayerData();
         }
     }
 }

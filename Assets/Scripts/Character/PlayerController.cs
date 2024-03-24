@@ -1,9 +1,11 @@
 using System.Collections;
+using Jiang.Games;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
+    private SaveSystem _SaveSystem;
     private NavMeshAgent m_Agent;
     private Animator m_Animator;
     private CharacterStats m_CharacterStats;
@@ -36,7 +38,8 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        SaveManager.Instance.LoadPlayerData();
+        _SaveSystem = Global.Interface.GetSystem<SaveSystem>();
+        _SaveSystem.LoadPlayerData();
     }
 
     private void OnDisable()

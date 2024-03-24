@@ -16,7 +16,7 @@ namespace Jiang.Games
         {
             Btn_NewGame.onClick.RemoveListener(NewGame);
             Btn_Continue.onClick.RemoveListener(ContinueGame);
-            Btn_Quit.onClick.RemoveListener(QuitGame);
+            Btn_Quit.onClick.RemoveListener(QuitGame); 
         }
 
         private void NewGame()

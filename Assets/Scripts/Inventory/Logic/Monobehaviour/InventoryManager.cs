@@ -1,8 +1,10 @@
+using Jiang.Games;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InventoryManager : Singleton<InventoryManager>
 {
+    private SaveSystem _SaveSystem;
     public class DragData
     {
         public SlotHolder originalHolder;
@@ -47,6 +49,7 @@ public class InventoryManager : Singleton<InventoryManager>
 
     private void Start()
     {
+        _SaveSystem = Global.Interface.GetSystem<SaveSystem>();
         LoadData();
         inventoryUI.RefreshUI();
         actionUI.RefreshUI();
@@ -71,16 +74,16 @@ public class InventoryManager : Singleton<InventoryManager>
 
     public void SaveData()
     {
-        SaveManager.Instance.Save(inventoryData, inventoryData.name);
-        SaveManager.Instance.Save(actionData, actionData.name);
-        SaveManager.Instance.Save(equipmentData, equipmentData.name);
+        _SaveSystem.Save(inventoryData, inventoryData.name);
+        _SaveSystem.Save(actionData, actionData.name);
+        _SaveSystem.Save(equipmentData, equipmentData.name);
     }
 
     public void LoadData()
     {
-        SaveManager.Instance.Load(inventoryData, inventoryData.name);
-        SaveManager.Instance.Load(actionData, actionData.name);
-        SaveManager.Instance.Load(equipmentData, equipmentData.name);
+        _SaveSystem.Load(inventoryData, inventoryData.name);
+        _SaveSystem.Load(actionData, actionData.name);
+        _SaveSystem.Load(equipmentData, equipmentData.name);
     }
 
     #region 检查拖拽物品是否在每一个 Slot 范围内

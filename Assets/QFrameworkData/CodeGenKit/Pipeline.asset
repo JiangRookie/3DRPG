@@ -18,23 +18,12 @@ MonoBehaviour:
     GameObject: {fileID: 0}
     From: 0
     NameToFullName: []
-    BindInfos:
-    - TypeName: UnityEngine.UI.Button
-      PathToRoot: Btn_NewGame
-      MemberName: Btn_NewGame
-    - TypeName: UnityEngine.UI.Button
-      PathToRoot: Btn_Continue
-      MemberName: Btn_Continue
-    - TypeName: UnityEngine.UI.Button
-      PathToRoot: Btn_Quit
-      MemberName: Btn_Quit
+    BindInfos: []
     ScriptsFolder: Assets/Scripts/Game
-    ClassName: MainMenuPanel
+    ClassName: InputManager
     Namespace: Jiang.Games
     MainCode: "using UnityEngine;\r\nusing QFramework;\r\n\r\nnamespace Jiang.Games\r\n{\r\n\tpublic
-      partial class MainMenuPanel : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
+      partial class InputManager : ViewController\r\n\t{\r\n\t\tvoid Start()\r\n\t\t{\r\n\t\t\t//
       Code Here\r\n\t\t}\r\n\t}\r\n}\r\n"
-    DesignerCode: "// Generate Id:29ba9716-8338-40b4-bbdc-804f0b7fa29e\r\nusing UnityEngine;\r\n\r\nnamespace
-      Jiang.Games\r\n{\r\n\tpublic partial class MainMenuPanel\r\n\t{\r\n\r\n\t\tpublic
-      UnityEngine.UI.Button Btn_NewGame;\r\n\r\n\t\tpublic UnityEngine.UI.Button
-      Btn_Continue;\r\n\r\n\t\tpublic UnityEngine.UI.Button Btn_Quit;\r\n\r\n\t}\r\n}\r\n"
+    DesignerCode: "// Generate Id:08545f7b-d480-474d-bed1-dbc76009a729\r\nusing UnityEngine;\r\n\r\nnamespace
+      Jiang.Games\r\n{\r\n\tpublic partial class InputManager\r\n\t{\r\n\r\n\t}\r\n}\r\n"

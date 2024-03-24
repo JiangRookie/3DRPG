@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditor;
+using Jiang.Games;
 using UnityEngine;
 
 public class QuestManager : Singleton<QuestManager>
@@ -29,11 +29,14 @@ public class QuestManager : Singleton<QuestManager>
             set => questData.isFinished = value;
         }
     }
+    
+    private SaveSystem _SaveSystem;
 
     public List<QuestTask> taskList = new List<QuestTask>();
 
     private void Start()
     {
+        _SaveSystem = Global.Interface.GetSystem<SaveSystem>();
         LoadQuestData();
     }
 
@@ -71,7 +74,7 @@ public class QuestManager : Singleton<QuestManager>
         for (int i = 0; i < questCount; i++)
         {
             var newQuestData = ScriptableObject.CreateInstance<QuestData_SO>();
-            SaveManager.Instance.Load(newQuestData, "task" + i);
+            _SaveSystem.Load(newQuestData, "task" + i);
             taskList.Add(new QuestTask { questData = newQuestData });
         }
     }
@@ -81,7 +84,7 @@ public class QuestManager : Singleton<QuestManager>
         PlayerPrefs.SetInt("QuestData", taskList.Count);
         for (int i = 0; i < taskList.Count; i++)
         {
-            SaveManager.Instance.Save(taskList[i].questData, "task" + i);
+            _SaveSystem.Save(taskList[i].questData, "task" + i);
         }
     }
 }
