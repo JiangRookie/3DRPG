@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5092856849629548224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5092856849629548227}
+  - component: {fileID: 3941920913639875104}
+  - component: {fileID: 3506688626064722833}
+  m_Layer: 0
+  m_Name: MouseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5092856849629548227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5092856849629548224}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3941920913639875104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5092856849629548224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c5962a5db34f844186a9af7781a2d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Namespace: Jiang.Games
+  ScriptName: MouseManager
+  ScriptsFolder: Assets/Scripts/Game
+  GeneratePrefab: 0
+  PrefabFolder: Assets/Art/Prefab
+  ArchitectureFullTypeName: Jiang.Games.Global
+  ArrowSprite: {fileID: 2800000, guid: 464823077fdbaae45adc12d6d1ca355d, type: 3}
+  TargetSprite: {fileID: 2800000, guid: 571881685e1950948bd695437442d12b, type: 3}
+  AttackSprite: {fileID: 2800000, guid: c8c4069602aa65146aa29c828a3443d0, type: 3}
+  DoorwaySprite: {fileID: 2800000, guid: 280f665da144c4c4ea24f9e70cfef9ea, type: 3}
+  PointSprite: {fileID: 2800000, guid: a93fd0d80d4db934cb3337173b046c29, type: 3}
+--- !u!114 &3506688626064722833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5092856849629548224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411e729afed24c62a04e2b99d9122e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Binds:
+  - MemberName: ArrowSprite
+    Object: {fileID: 2800000, guid: 464823077fdbaae45adc12d6d1ca355d, type: 3}
+  - MemberName: TargetSprite
+    Object: {fileID: 2800000, guid: 571881685e1950948bd695437442d12b, type: 3}
+  - MemberName: AttackSprite
+    Object: {fileID: 2800000, guid: c8c4069602aa65146aa29c828a3443d0, type: 3}
+  - MemberName: DoorwaySprite
+    Object: {fileID: 2800000, guid: 280f665da144c4c4ea24f9e70cfef9ea, type: 3}
+  - MemberName: PointSprite
+    Object: {fileID: 2800000, guid: a93fd0d80d4db934cb3337173b046c29, type: 3}

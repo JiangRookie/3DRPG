@@ -1,15 +1,15 @@
-using QFramework;
 using UnityEngine;
+using QFramework;
 
 namespace Jiang.Games
 {
-    public class InputManager : PersistentMonoSingleton<InputManager>
+    public partial class InputManager : ViewController
     {
         private SaveSystem _SaveSystem;
 
         private void Start()
         {
-            _SaveSystem = Global.Interface.GetSystem<SaveSystem>();
+            _SaveSystem = this.GetSystem<SaveSystem>();
         }
 
         private void Update()
@@ -29,7 +29,7 @@ namespace Jiang.Games
             {
                 InventoryManager.Instance.SwitchBag();
             }
-            
+
             if (Input.GetKeyDown(KeyCode.Q))
             {
                 QuestUI.Instance.SwitchQuestUI();

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5092856849629548224
+--- !u!1 &8907995337119796623
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,43 +8,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5092856849629548227}
-  - component: {fileID: 5092856849629548226}
+  - component: {fileID: 8907995337119796657}
+  - component: {fileID: 5651215304168395690}
   m_Layer: 0
-  m_Name: Mouse Manager
+  m_Name: InputManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5092856849629548227
+--- !u!4 &8907995337119796657
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5092856849629548224}
+  m_GameObject: {fileID: 8907995337119796623}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5092856849629548226
+--- !u!114 &5651215304168395690
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5092856849629548224}
+  m_GameObject: {fileID: 8907995337119796623}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02736bf66fd6f2545bb5ffc01299a411, type: 3}
+  m_Script: {fileID: 11500000, guid: 5383be1a56265d1438bb1ceb264867bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  point: {fileID: 2800000, guid: a93fd0d80d4db934cb3337173b046c29, type: 3}
-  doorway: {fileID: 2800000, guid: 280f665da144c4c4ea24f9e70cfef9ea, type: 3}
-  attack: {fileID: 2800000, guid: c8c4069602aa65146aa29c828a3443d0, type: 3}
-  target: {fileID: 2800000, guid: 571881685e1950948bd695437442d12b, type: 3}
-  arrow: {fileID: 2800000, guid: 464823077fdbaae45adc12d6d1ca355d, type: 3}
+  Namespace: Jiang.Games
+  ScriptName: InputManager
+  ScriptsFolder: Assets/Scripts/Game
+  GeneratePrefab: 0
+  PrefabFolder: Assets/Art/Prefab
+  ArchitectureFullTypeName: Jiang.Games.Global
