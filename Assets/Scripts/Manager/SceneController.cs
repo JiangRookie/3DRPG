@@ -1,6 +1,4 @@
 using System.Collections;
-using QFramework;
-using QFramework.Example;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
@@ -126,7 +124,6 @@ public class SceneController : Singleton<SceneController>, IEndGameObserver
         SceneFader fade = Instantiate(sceneFaderPrefab);
         yield return StartCoroutine(fade.FadeOut(2f));
         yield return SceneManager.LoadSceneAsync("MainScene");
-        UIKit.OpenPanel<MainMenuPanel>();
         yield return StartCoroutine(fade.FadeIn(2f));
     }
 

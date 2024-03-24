@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnDisable()
     {
-        if (!MouseManager.Instance.IsInitialized) return;
+        if (!MouseManager.IsInitialized) return;
         MouseManager.Instance.OnMouseClicked -= MoveToTargetEvent;
         MouseManager.Instance.OnEnemyClicked -= MoveToAttackTargetEvent;
     }

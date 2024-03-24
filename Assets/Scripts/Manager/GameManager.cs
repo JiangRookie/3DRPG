@@ -1,21 +1,19 @@
 using System.Collections.Generic;
-using QFramework;
-using QFramework.Example;
 using Unity.Cinemachine;
 using UnityEngine;
 
-public class GameManager : PersistentMonoSingleton<GameManager>
+public class GameManager : Singleton<GameManager>
 {
-    public bool IsInitialized => mEnabled;
     public CharacterStats playerCharacterStats;
 
     private CinemachineFreeLook m_FollowCamera;
 
     private List<IEndGameObserver> m_EndGameObserverList = new List<IEndGameObserver>();
 
-    private void Start()
+    protected override void Awake()
     {
-        UIKit.OpenPanel<MainMenuPanel>();
+        base.Awake();
+        DontDestroyOnLoad(this);
     }
 
     public void RegisterPlayer(CharacterStats thePlayerCharacterStats)
